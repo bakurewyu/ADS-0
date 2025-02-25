@@ -4,7 +4,7 @@ int gcd(int a, int b) {
   while (b!=0) {
     int cash = b;
     b = a % b;
-    a = cash
-      }
+    a = cash;
+  }
   return a;
 }
